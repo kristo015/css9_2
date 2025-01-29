@@ -1,0 +1,74 @@
+@media screen and (min-width: 768px) and (max-width:1023px) {
+    .wrapper {
+        width: 768px;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .button_box {
+        display: none;
+    }
+
+    .burger {
+        display: inline;
+        width: 32px;
+    }
+
+    .serch_box {
+        justify-content: space-between;
+        width: 760px;
+    }
+
+    .history_text {
+        flex-direction: column;
+        justify-content: center;
+        ;
+    }
+
+    .histori_title {
+        width: 320px;
+        text-align: start;
+    }
+
+    .history_conteiner {
+        justify-content: center;
+        align-items: flex-start;
+        width: 760px;
+    }
+
+    .histori_box {
+        width: 768px;
+        padding: 0 20px;
+    }
+
+    .info_box {
+        background-size: 320px 600px;
+    }
+
+    .pricing-container {
+        flex-direction: column;
+    }
+
+    .women_conteiner {
+        flex-direction: column;
+    }
+
+    .biutiful {
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 18px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 768px;
+        padding: 20px;
+    }
+
+    .footer-links {
+        flex-flow: column-reverse;
+    }
+}

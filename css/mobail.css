@@ -1,0 +1,132 @@
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .wrapper {
+        width: 320px;
+    }
+
+    .section {
+        display: none;
+    }
+
+    .button_box {
+        display: none;
+    }
+
+    .burger {
+        display: inline;
+        width: 32px;
+    }
+
+    h1 {
+        font-weight: 600;
+        line-height: 44px;
+        font-size: 36px
+    }
+
+    .hover_conteiner {
+        background-size: 320px;
+        height: 600px;
+    }
+
+    .footer-bottom {
+        flex-direction: column;
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .histori_box {
+        flex-direction: column;
+        gap: 36px;
+    }
+
+    .history_text {
+        flex-direction: column;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .history_text>div {
+        width: 288px;
+    }
+
+    .history_conteiner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .history_text {
+        width: 320px;
+    }
+
+    .histori_box {
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .info_box {
+        background-size: 300px 200px;
+        height: 1282px;
+    }
+
+    .InfoBox {
+        padding: 5px;
+        gap: 12px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+
+    .Sales_box {
+        padding: 20px 5px;
+        flex-direction: column;
+    }
+
+    .histori_title {
+        width: 320px;
+        align-items: flex-start;
+    }
+
+    .SaleBox {
+        width: 320px;
+    }
+
+    .pric {
+        flex-direction: column;
+    }
+
+    .Sale {
+        flex-direction: column;
+    }
+
+
+    .women_conteiner {
+        flex-direction: column;
+        width: 320px;
+    }
+
+    .biutiful {
+        width: 100%;
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 18px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 768px;
+        padding: 20px;
+    }
+
+    .footer-links {
+        flex-flow: column-reverse;
+        width: 320px;
+    }
+
+    .footer-container {
+        width: 320px;
+    }
+
+    .histori_span {
+        font-size: 24px;
+    }
+}
